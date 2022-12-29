@@ -71,43 +71,48 @@
 
 main .section1 {
   background-image: url("../footage/Background banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   z-index: 0;
   padding: 0 0;
-  height: 650px;
+  height: 768px;
 }
-main .section1 .row {
+main .section1 .container {
+  padding-right: 0;
+}
+main .section1 .container .row {
   margin: 0 0;
 }
-main .section1 .row .logo-banner {
+main .section1 .container .row .logo-banner {
   width: 38vw;
 }
-main .section1 .row .texto-banner {
+main .section1 .container .row .texto-banner {
   font-family: MADE Outer Sans bold;
   color: #9e192c;
-  font-size: 2.8vw;
+  font-size: 2.7vw;
   text-align: center;
 }
-main .section1 .row .boton-banner {
+main .section1 .container .row .boton-banner {
   background-color: #9e192c;
   color: white;
   font-family: MADE Outer Sans black;
   font-size: 28px;
   letter-spacing: 1px;
-  padding: 1.3rem 2.3rem;
+  padding: 3vh 3vw;
   border: none;
   border-radius: 10px;
   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
 }
-main .section1 .row .boton-banner:active {
+main .section1 .container .row .boton-banner:active {
   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
   outline: none;
 }
-main .section1 .row .boton-banner:focus {
+main .section1 .container .row .boton-banner:focus {
   outline: none;
 }
 main .section-nuestras-marcas h1 {
@@ -125,11 +130,11 @@ main .section-datos {
 }
 main .section-datos h3 {
   font-family: MADE Outer Sans Medium;
-  font-size: 16px;
+  font-size: 19px;
 }
 main .section-datos p {
   font-family: MADE Outer Sans thin;
-  font-size: 13px;
+  font-size: 16px;
 }
 main .section-datos img {
   width: 6vw;
@@ -184,9 +189,8 @@ main .section-formulario .row .formulario form .form-control,
 main .section-formulario .container .formulario form .form-control {
   color: red;
   font-family: MADE Outer Sans thin;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 10px;
-  width: 89%;
 }
 main .section-formulario .row .formulario form .form-control:focus,
 main .section-formulario .container .formulario form .form-control:focus {
@@ -198,9 +202,9 @@ main .section-formulario .container .formulario form .boton-formulario {
   background-color: #9e192c;
   color: white;
   font-family: MADE Outer Sans regular;
-  font-size: 26px;
+  font-size: 25px;
   letter-spacing: 1px;
-  padding: 0.3rem 4rem;
+  padding: 0.6rem 5rem;
   border: none;
   border-radius: 10px;
   box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
@@ -211,7 +215,6 @@ main .section-formulario .row .formulario form hr,
 main .section-formulario .container .formulario form hr {
   height: 2px;
   background-color: #9e192c;
-  width: 89%;
 }
 
 footer {
@@ -221,7 +224,7 @@ footer .texto-footer {
   font-family: MADE Outer Sans thin;
   font-size: 16px;
   font-weight: 100;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 0;
 }
 footer .titulo-footer {
@@ -244,4 +247,67 @@ footer .texto-footer {
   font-family: MADE Outer Sans thin;
   font-size: 0.9rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  main .section1 {
+    height: 600px;
+  }
+  main .section1 .container {
+    max-width: 830px;
+  }
+  main .section1 .container .row .boton-banner {
+    font-size: 21px;
+    padding: 3vh 3vw;
+    border: none;
+  }
+  main .section-nuestras-marcas h1 {
+    font-family: MADE Outer Sans Bold;
+    font-size: 4rem;
+    color: black;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    padding: 0 4px;
+    margin-bottom: 11px;
+    width: 40vw;
+  }
+  main .section-nuestras-marcas .imagen-display {
+    display: none;
+  }
+  main .section-formulario {
+    background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
+    background-size: cover;
+    height: 1100px;
+  }
+  main .section-formulario .row .form-textos,
+main .section-formulario .container .form-textos {
+    padding-right: 0;
+  }
+  main .section-formulario .row .form-textos .img-formulario,
+main .section-formulario .container .form-textos .img-formulario {
+    width: auto;
+  }
+  main .section-formulario .row .form-textos .texto-formulario,
+main .section-formulario .container .form-textos .texto-formulario {
+    font-size: 35px;
+  }
+  main .section-formulario .row .formulario,
+main .section-formulario .container .formulario {
+    text-align: center;
+    padding-left: 0;
+  }
+  main .section-formulario .row .formulario form .input-formulario-general,
+main .section-formulario .container .formulario form .input-formulario-general {
+    padding: 0 15px;
+  }
+  main .section-formulario .row .formulario form .form-control,
+main .section-formulario .container .formulario form .form-control {
+    font-size: 23px;
+    text-align: center;
+  }
+  main .section-formulario .row .formulario form .boton-formulario,
+main .section-formulario .container .formulario form .boton-formulario {
+    font-size: 33px;
+    padding: 0.5rem 24vw;
+  }
 }/*# sourceMappingURL=style.css.map */
