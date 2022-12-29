@@ -1,0 +1,314 @@
+// FUENTE
+
+@font-face {
+  font-family: MADE Outer Sans thin;
+  src: url(../fuente/MADE\ Outer\ Sans\ Thin\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: MADE Outer Sans regular;
+  src: url(../fuente/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: MADE Outer Sans Medium;
+  src: url(../fuente/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: MADE Outer Sans bold;
+  src: url(../fuente/MADE\ Outer\ Sans\ Bold\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: MADE Outer Sans black;
+  src: url(../fuente/MADE\ Outer\ Sans\ Black\ PERSONAL\ USE.otf);
+}
+
+
+// GENERALES
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.boton-contacto{
+  position:fixed;
+  width: 70px;
+  height: 70px;
+  line-height: 65px;
+  bottom: 34px;
+  right: 35px;
+  background-color: #9e192c;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+
+  &:hover{
+    color: white;
+  }
+
+  &:active{
+    box-shadow: none
+    ;
+  }
+}
+
+// HEADER
+
+
+.header {
+  height: 13vh;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+  .navbar {
+    padding: 0 0;
+
+    .nav-item {
+      .nav-link {
+        color: black;
+        font-family: MADE Outer Sans medium;
+        font-size: 24px;
+      }
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+    }
+
+    .navbar-collapse {
+      flex-grow: 0;
+    }
+  }
+}
+
+// MAIN
+
+main {
+  // Section 1
+
+  .section1 {
+    background-image: url("../footage/Background\ banner.jpg");
+    position: relative;
+    z-index: 0;
+    padding: 0 0;
+    height: 650px;
+
+    .row {
+      margin: 0 0;
+      .logo-banner {
+        width: 38vw;
+      }
+      .texto-banner {
+        font-family: MADE Outer Sans bold;
+        color: #9e192c;
+        font-size: 2.8vw;
+        text-align: center;
+      }
+      .boton-banner {
+        background-color: #9e192c;
+        color: white;
+        font-family: MADE Outer Sans black;
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding: 1.3rem 2.3rem;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+
+        &:active {
+          box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+          -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+          outline: none;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  // Section 2
+
+  .section-nuestras-marcas {
+    h1 {
+      font-family: MADE Outer Sans Bold;
+      font-size: 4rem;
+      color: black;
+    }
+
+    .imagen-productos {
+      padding: 0 4px;
+      margin-bottom: 11px;
+      width: 26vw;
+    }
+  }
+
+  // Section 3
+
+  .section-datos {
+    background-color: #d9d9d9;
+
+    h3 {
+      font-family: MADE Outer Sans Medium;
+      font-size: 16px;
+    }
+    p {
+      font-family: MADE Outer Sans thin;
+      font-size: 13px;
+    }
+
+    img {
+      width: 6vw;
+    }
+  }
+
+  // FORMULARIO
+
+  .section-formulario {
+    background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
+    background-size: cover;
+    height: 800px;
+
+    .row,
+    .container {
+
+
+      .form-textos{
+
+        padding-right: 3rem;
+
+      .texto-formulario {
+        color: white;
+        font-family: MADE Outer Sans bold;
+        font-size: 29px;
+      }
+
+      .img-formulario {
+        width: 37vw;
+      }
+
+  
+    }
+
+    .formulario{
+      padding-left: 3rem;
+
+      .titulo-form {
+        color: white;
+        font-family: MADE Outer Sans black;
+        font-size: 45px;
+      }
+
+      form {
+        color: white;
+
+        .form-group {
+          margin-bottom: 0.5rem;
+        }
+
+        .input-formulario-general {
+          font-family: MADE Outer Sans thin;
+          font-size: 20px;
+          height: 48px;
+          margin-right: 1rem;
+          padding: 0;
+          padding-left: 5px;
+        }
+
+        .form-control {
+          color: red;
+          font-family: MADE Outer Sans thin;
+          font-size: 16px;
+          border-radius: 10px;
+          width: 89%;
+
+          &:focus{
+            border-color: #9e192c;
+            box-shadow: none
+          }
+        }
+
+     
+        .boton-formulario {
+          background-color: #9e192c;
+          color: white;
+          font-family: MADE Outer Sans regular;
+          font-size: 26px;
+          letter-spacing: 1px;
+          padding: 0.3rem 4rem;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+          -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+          -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+        }
+
+
+
+        hr{
+          height: 2px;
+          background-color: #9e192c;
+          width: 89%;
+        }
+      }
+
+    }
+
+    }
+  }
+
+}
+
+  // FOOTER
+
+footer{
+  background-color: #9e192c;
+
+.texto-footer{
+  font-family: MADE Outer Sans thin;
+  font-size: 16px;
+  font-weight: 100;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.titulo-footer{
+  font-size: 16px;
+  font-family: MADE Outer Sans thin;
+  color: white;
+}
+
+.logo-footer{
+  width: 40px;
+  color: white;
+}
+
+.titulo-footer2{
+  color: white;
+  font-family: MADE Outer Sans Bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.texto-footer{
+  color: white;
+  font-family: MADE Outer Sans thin;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+}
