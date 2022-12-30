@@ -65,6 +65,7 @@
   -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 1;
+  background-color: white;
 
   .navbar {
     padding: 0 0;
@@ -311,6 +312,37 @@ footer {
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
+  header {
+    .container {
+      max-width: 1024px;
+    }
+
+    .navbar-brand {
+      padding-left: 2rem;
+    }
+
+    .navbar-toggler {
+      padding-right: 2rem;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar {
+      .nav-item {
+        .nav-link {
+          text-align: center;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  #opciones {
+    background-color: white;
+  }
+
   main {
     // Section 1
 
@@ -330,6 +362,7 @@ footer {
         }
       }
     }
+
 
     // Section 2
 
@@ -416,6 +449,39 @@ footer {
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
+
+#opciones{
+  background-color: white;
+}
+
+  header {
+    .container {
+      max-width: 1024px;
+    }
+
+    .navbar-brand {
+      padding-left: 2rem;
+    }
+
+    .navbar-toggler {
+      padding-right: 2rem;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar {
+      .nav-item {
+        .nav-link {
+          text-align: center;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+
   main {
     // Section 1
 
@@ -470,8 +536,9 @@ footer {
     // SECCIÓN NUESTRAS MARCAS
 
     .section-nuestras-marcas {
-margin-bottom: 2rem;
-      h1{
+      margin-bottom: 2rem;
+
+      h1 {
         font-size: 6.5vw;
         margin-bottom: 1rem;
       }
@@ -542,35 +609,37 @@ margin-bottom: 2rem;
     }
   }
 
-  footer{
+  footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    .texto-footer{
+
+    .texto-footer {
       font-size: 1.5rem;
       padding-top: 1rem;
     }
 
-    .d-flex{
+    .d-flex {
       margin-bottom: 1rem;
     }
 
 
-    .titulo-footer2{
+    .titulo-footer2 {
       font-size: 1.5rem;
     }
 
-    .titulo-footer{
+    .titulo-footer {
       font-size: 1.6rem;
     }
 
-    .contenedor-footer{
+    .contenedor-footer {
       flex-direction: column;
     }
-    .container{
+
+    .container {
       text-align: center;
     }
 
-    .texto-footer2{
+    .texto-footer2 {
       font-size: 1.8rem;
       margin-bottom: 2rem;
     }
@@ -579,14 +648,47 @@ margin-bottom: 2rem;
 
 @media (max-width: 425px) and (min-width: 10px) {
 
-  .header {
+  
+#opciones{
+  background-color: white;
+}
+
+  header {
+
     .navbar {
       .logo {
         width: 200px;
         padding-left: 1rem;
       }
     }
+
+    .container {
+      max-width: 1024px;
+    }
+
+    .navbar-brand {
+      padding-left: 2rem;
+    }
+
+    .navbar-toggler {
+      padding-right: 2rem;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar {
+      .nav-item {
+        .nav-link {
+          text-align: center;
+          font-size: 28px;
+        }
+      }
+    }
   }
+
+  
 
   main {
 
@@ -650,6 +752,7 @@ margin-bottom: 2rem;
 
     .section-nuestras-marcas {
       margin-bottom: 2rem;
+
       h1 {
         font-size: 2.3rem;
         margin-bottom: 1rem;
@@ -668,6 +771,7 @@ margin-bottom: 2rem;
 
     .section-datos {
       margin-bottom: 2rem;
+
       img {
         width: 23vw;
       }
@@ -688,29 +792,32 @@ margin-bottom: 2rem;
       background-repeat: no-repeat;
       height: 170vh;
       background-position-x: center;
+
       .container {
         .form-textos {
           padding-right: 0;
           text-align: center;
+
           .img-formulario {
             width: 77vw;
             margin-bottom: 1rem;
           }
 
-          .texto-formulario{
+          .texto-formulario {
             font-size: 21px;
           }
         }
-      
-      .formulario{
-        padding: 0;
-        .titulo-form{
-          font-size: 38px;
+
+        .formulario {
+          padding: 0;
+
+          .titulo-form {
+            font-size: 38px;
+          }
+
+          text-align: center;
         }
 
-        text-align: center;
-      }
-      
       }
     }
 
@@ -719,35 +826,37 @@ margin-bottom: 2rem;
 
   }
 
-  footer{
+  footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    .texto-footer{
+
+    .texto-footer {
       font-size: 1.2rem;
       padding-top: 1rem;
     }
 
-    .d-flex{
+    .d-flex {
       margin-bottom: 1rem;
     }
 
 
-    .titulo-footer2{
+    .titulo-footer2 {
       font-size: 1.2rem;
     }
 
-    .titulo-footer{
+    .titulo-footer {
       font-size: 1.2rem;
     }
 
-    .contenedor-footer{
+    .contenedor-footer {
       flex-direction: column;
     }
-    .container{
+
+    .container {
       text-align: center;
     }
 
-    .texto-footer2{
+    .texto-footer2 {
       font-size: 1.2rem;
       margin-bottom: 2rem;
     }
