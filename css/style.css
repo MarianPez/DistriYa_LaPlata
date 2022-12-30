@@ -115,6 +115,9 @@ main .section1 .container .row .boton-banner:active {
 main .section1 .container .row .boton-banner:focus {
   outline: none;
 }
+main .section1 .container .row .boton-banner-aparece {
+  display: none;
+}
 main .section-nuestras-marcas h1 {
   font-family: MADE Outer Sans Bold;
   font-size: 4rem;
@@ -142,7 +145,7 @@ main .section-datos img {
 main .section-formulario {
   background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
   background-size: cover;
-  height: 800px;
+  height: 160vh;
 }
 main .section-formulario .row .form-textos,
 main .section-formulario .container .form-textos {
@@ -233,7 +236,7 @@ footer .titulo-footer {
   color: white;
 }
 footer .logo-footer {
-  width: 40px;
+  width: 60px;
   color: white;
 }
 footer .titulo-footer2 {
@@ -252,6 +255,7 @@ footer .texto-footer {
 @media (max-width: 1024px) and (min-width: 769px) {
   main .section1 {
     height: 600px;
+    display: block;
   }
   main .section1 .container {
     max-width: 830px;
@@ -273,6 +277,15 @@ footer .texto-footer {
   }
   main .section-nuestras-marcas .imagen-display {
     display: none;
+  }
+  main .section-datos img {
+    width: 12vw;
+  }
+  main .section-datos h3 {
+    font-size: 21px;
+  }
+  main .section-datos p {
+    font-size: 17px;
   }
   main .section-formulario {
     background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
@@ -309,5 +322,240 @@ main .section-formulario .container .formulario form .form-control {
 main .section-formulario .container .formulario form .boton-formulario {
     font-size: 33px;
     padding: 0.5rem 24vw;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+  main .section1 {
+    background-image: url("../footage/Responsive banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    height: 143vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .section1 .desaparece {
+    display: none;
+  }
+  main .section1 .aparece {
+    display: block;
+  }
+  main .section1 .container {
+    max-width: 830px;
+    height: 40vh;
+  }
+  main .section1 .container .row .boton-banner {
+    font-size: 21px;
+    padding: 3vh 3vw;
+    border: none;
+  }
+  main .section1 .container .row .texto-banner {
+    font-size: 4.5vw;
+  }
+  main .section1 .container .row .boton-banner-aparece {
+    display: block;
+  }
+  main .section1 .container .row .boton-banner-aparece .boton-banner {
+    font-size: 28px;
+  }
+  main .section1 .container .row .desaparece {
+    display: none;
+  }
+  main .section-nuestras-marcas {
+    margin-bottom: 2rem;
+  }
+  main .section-nuestras-marcas h1 {
+    font-size: 6.5vw;
+    margin-bottom: 1rem;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    width: 42vw;
+  }
+  main .section-nuestras-marcas .imagen-display {
+    display: none;
+  }
+  main .section-datos {
+    margin-bottom: 2rem;
+  }
+  main .section-datos img {
+    width: 15vw;
+  }
+  main .section-datos h3 {
+    font-size: 24px;
+  }
+  main .section-datos p {
+    font-size: 20px;
+    padding: 0 5rem;
+  }
+  main .section-formulario .row .form-textos,
+main .section-formulario .container .form-textos {
+    padding-right: 0;
+  }
+  main .section-formulario .row .form-textos .img-formulario,
+main .section-formulario .container .form-textos .img-formulario {
+    width: 67%;
+    margin-bottom: 1rem;
+  }
+  main .section-formulario .row .form-textos .texto-formulario,
+main .section-formulario .container .form-textos .texto-formulario {
+    font-size: 27px;
+  }
+  main .section-formulario .row .formulario .titulo-form,
+main .section-formulario .container .formulario .titulo-form {
+    display: none;
+  }
+  main .section-formulario .row .formulario form .boton-formulario,
+main .section-formulario .container .formulario form .boton-formulario {
+    font-size: 30px;
+    padding: 0.6rem 38.5%;
+  }
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  footer .texto-footer {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  footer .d-flex {
+    margin-bottom: 1rem;
+  }
+  footer .titulo-footer2 {
+    font-size: 1.5rem;
+  }
+  footer .titulo-footer {
+    font-size: 1.6rem;
+  }
+  footer .contenedor-footer {
+    flex-direction: column;
+  }
+  footer .container {
+    text-align: center;
+  }
+  footer .texto-footer2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 425px) and (min-width: 10px) {
+  .header .navbar .logo {
+    width: 200px;
+    padding-left: 1rem;
+  }
+  main .section1 {
+    background-image: url("../footage/Responsive banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    height: 77vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  main .section1 .desaparece {
+    display: none;
+  }
+  main .section1 .aparece {
+    display: block;
+  }
+  main .section1 .container {
+    max-width: 830px;
+    height: 18vh;
+  }
+  main .section1 .container .row .boton-banner {
+    font-size: 21px;
+    padding: 3vh 3vw;
+    border: none;
+  }
+  main .section1 .container .row .texto-banner {
+    padding-top: 1rem;
+    font-size: 5.7vw;
+  }
+  main .section1 .container .row .boton-banner-aparece {
+    display: block;
+  }
+  main .section1 .container .row .boton-banner-aparece .boton-banner {
+    font-size: 17px;
+  }
+  main .section1 .container .row .desaparece {
+    display: none;
+  }
+  main .section-nuestras-marcas {
+    margin-bottom: 2rem;
+  }
+  main .section-nuestras-marcas h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    width: 80vw;
+  }
+  main .section-nuestras-marcas .imagen-display {
+    display: none;
+  }
+  main .section-datos {
+    margin-bottom: 2rem;
+  }
+  main .section-datos img {
+    width: 23vw;
+  }
+  main .section-datos h3 {
+    font-size: 22px;
+  }
+  main .section-datos p {
+    font-size: 19px;
+  }
+  main .section-formulario {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170vh;
+    background-position-x: center;
+  }
+  main .section-formulario .container .form-textos {
+    padding-right: 0;
+    text-align: center;
+  }
+  main .section-formulario .container .form-textos .img-formulario {
+    width: 77vw;
+    margin-bottom: 1rem;
+  }
+  main .section-formulario .container .form-textos .texto-formulario {
+    font-size: 21px;
+  }
+  main .section-formulario .container .formulario {
+    padding: 0;
+    text-align: center;
+  }
+  main .section-formulario .container .formulario .titulo-form {
+    font-size: 38px;
+  }
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  footer .texto-footer {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+  footer .d-flex {
+    margin-bottom: 1rem;
+  }
+  footer .titulo-footer2 {
+    font-size: 1.2rem;
+  }
+  footer .titulo-footer {
+    font-size: 1.2rem;
+  }
+  footer .contenedor-footer {
+    flex-direction: column;
+  }
+  footer .container {
+    text-align: center;
+  }
+  footer .texto-footer2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
