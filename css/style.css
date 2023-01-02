@@ -287,7 +287,7 @@ main .section-formulario .container .formulario form hr {
     margin-bottom: 1rem;
   }
 }
-@media (max-width: 1920) and (min-width: 1441px) {
+@media (max-width: 1919px) and (min-width: 1441px) {
   .boton-contacto {
     position: fixed;
     width: 80px;
@@ -333,17 +333,17 @@ main .section-formulario .container .formulario form hr {
   .header .navbar .nav-item .nav-link {
     color: black;
     font-family: MADE Outer Sans medium;
-    font-size: 40px;
+    font-size: 25px;
   }
   .header .navbar svg {
-    width: 50px;
+    width: 35px;
     height: auto;
   }
   .header .navbar svg:focus {
     outline: none;
   }
   .header .navbar .logo {
-    width: 250px;
+    width: 200px;
     height: auto;
   }
   .header .navbar .navbar-collapse {
@@ -360,7 +360,7 @@ main .section-formulario .container .formulario form hr {
   main .section1 .container {
     padding-right: 0;
     max-width: 2300px;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
   }
   main .section1 .container .align-items-xl-end {
     align-items: center !important;
@@ -369,16 +369,16 @@ main .section-formulario .container .formulario form hr {
     margin: 0 0;
   }
   main .section1 .container .row .img-banner-desaparece {
-    width: 45vw;
+    width: 35vw;
     padding-top: 1rem;
   }
   main .section1 .container .row .logo-banner {
-    width: 38vw;
+    width: 30vw;
   }
   main .section1 .container .row .texto-banner {
     font-family: MADE Outer Sans bold;
     color: #9e192c;
-    font-size: 2.7vw;
+    font-size: 2.1vw;
     text-align: center;
   }
   main .section1 .container .row .boton-banner {
@@ -414,33 +414,33 @@ main .section-formulario .container .formulario form hr {
   }
   main .section-nuestras-marcas h1 {
     font-family: MADE Outer Sans Bold;
-    font-size: 7rem;
+    font-size: 5rem;
     color: black;
   }
   main .section-nuestras-marcas .imagen-productos {
     padding: 0 4px;
     margin-bottom: 11px;
-    width: 26vw;
+    width: 25vw;
   }
   main .section-datos {
     background-color: #d9d9d9;
   }
   main .section-datos h3 {
     font-family: MADE Outer Sans Medium;
-    font-size: 30px;
+    font-size: 22px;
   }
   main .section-datos p {
     font-family: MADE Outer Sans thin;
-    font-size: 25px;
+    font-size: 20px;
     padding: 0 3rem;
   }
   main .section-datos img {
-    width: 9vw;
+    width: 7vw;
   }
   main .section-formulario {
     background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
     background-size: cover;
-    padding: 12rem 8rem;
+    padding: 6rem 8rem;
   }
   main .section-formulario .row .form-textos,
 main .section-formulario .container .form-textos {
@@ -454,7 +454,7 @@ main .section-formulario .container .form-textos .texto-formulario {
   }
   main .section-formulario .row .form-textos .img-formulario,
 main .section-formulario .container .form-textos .img-formulario {
-    width: 38vw;
+    width: 35vw;
   }
   main .section-formulario .row .formulario,
 main .section-formulario .container .formulario {
@@ -464,7 +464,7 @@ main .section-formulario .container .formulario {
 main .section-formulario .container .formulario .titulo-form {
     color: white;
     font-family: MADE Outer Sans black;
-    font-size: 70px;
+    font-size: 50px;
   }
   main .section-formulario .row .formulario form,
 main .section-formulario .container .formulario form {
@@ -477,8 +477,8 @@ main .section-formulario .container .formulario form .form-group {
   main .section-formulario .row .formulario form .input-formulario-general,
 main .section-formulario .container .formulario form .input-formulario-general {
     font-family: MADE Outer Sans thin;
-    font-size: 35px;
-    height: 60px;
+    font-size: 20px;
+    height: 45px;
     margin-right: 1rem;
     padding: 0;
     padding-left: 5px;
@@ -487,7 +487,7 @@ main .section-formulario .container .formulario form .input-formulario-general {
 main .section-formulario .container .formulario form .form-control {
     color: red;
     font-family: MADE Outer Sans thin;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     border-radius: 10px;
   }
   main .section-formulario .row .formulario form .form-control:focus,
@@ -500,9 +500,9 @@ main .section-formulario .container .formulario form .boton-formulario {
     background-color: #9e192c;
     color: white;
     font-family: MADE Outer Sans regular;
-    font-size: 38px;
+    font-size: 26px;
     letter-spacing: 1px;
-    padding: 0.5rem 6rem;
+    padding: 0.5rem 4rem;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
@@ -523,18 +523,18 @@ main .section-formulario .container .formulario form hr {
   }
   footer .texto-footer {
     font-family: MADE Outer Sans thin;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 100;
     color: #ffffff;
     margin-bottom: 0;
   }
   footer .titulo-footer {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: MADE Outer Sans thin;
     color: white;
   }
   footer .logo-footer {
-    width: 70px;
+    width: 50px;
     color: white;
   }
   footer .titulo-footer2 {

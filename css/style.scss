@@ -373,7 +373,7 @@
 
 
 
-@media (max-width:1920) and (min-width: 1441px) {
+@media (max-width: 1919px) and (min-width: 1441px) {
 
   
   .boton-contacto {
@@ -435,14 +435,14 @@
           .nav-link {
             color: black;
             font-family: MADE Outer Sans medium;
-            font-size: 40px;
+            font-size: 25px;
           }
         }
     
     
         svg {
     
-          width: 50px;
+          width: 35px;
           height: auto;
     
           &:focus {
@@ -451,7 +451,7 @@
         }
     
         .logo {
-          width: 250px;
+          width: 200px;
           height: auto;
         }
     
@@ -477,7 +477,7 @@
         .container {
           padding-right: 0;
           max-width: 2300px;
-          padding-bottom: 5rem;
+          padding-bottom: 2rem;
   
           .align-items-xl-end{
             align-items: center !important;
@@ -487,18 +487,18 @@
             margin: 0 0;
     
             .img-banner-desaparece {
-              width: 45vw;
+              width: 35vw;
               padding-top: 1rem;
             }
     
             .logo-banner {
-              width: 38vw;
+              width: 30vw;
             }
     
             .texto-banner {
               font-family: MADE Outer Sans bold;
               color: #9e192c;
-              font-size: 2.7vw;
+              font-size: 2.1vw;
               text-align: center;
             }
     
@@ -547,14 +547,14 @@
   
         h1 {
           font-family: MADE Outer Sans Bold;
-          font-size: 7rem;
+          font-size: 5rem;
           color: black;
         }
     
         .imagen-productos {
           padding: 0 4px;
           margin-bottom: 11px;
-          width: 26vw;
+          width: 25vw;
         }
       }
     
@@ -565,17 +565,17 @@
     
         h3 {
           font-family: MADE Outer Sans Medium;
-          font-size: 30px;
+          font-size: 22px;
         }
     
         p {
           font-family: MADE Outer Sans thin;
-          font-size: 25px;
+          font-size: 20px;
           padding: 0 3rem;
         }
     
         img {
-          width: 9vw;
+          width: 7vw;
         }
       }
     
@@ -584,7 +584,7 @@
       .section-formulario {
         background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
         background-size: cover;
-        padding: 12rem 8rem;
+        padding: 6rem 8rem;
     
         .row,
         .container {
@@ -598,7 +598,7 @@
             }
     
             .img-formulario {
-              width: 38vw;
+              width: 35vw;
             }
           }
     
@@ -608,7 +608,7 @@
             .titulo-form {
               color: white;
               font-family: MADE Outer Sans black;
-              font-size: 70px;
+              font-size: 50px;
             }
     
             form {
@@ -620,8 +620,8 @@
     
               .input-formulario-general {
                 font-family: MADE Outer Sans thin;
-                font-size: 35px;
-                height: 60px;
+                font-size: 20px;
+                height: 45px;
                 margin-right: 1rem;
                 padding: 0;
                 padding-left: 5px;
@@ -630,7 +630,7 @@
               .form-control {
                 color: red;
                 font-family: MADE Outer Sans thin;
-                font-size: 1.2vw;
+                font-size: 1.3vw;
                 border-radius: 10px;
     
                 &:focus {
@@ -643,9 +643,9 @@
                 background-color: #9e192c;
                 color: white;
                 font-family: MADE Outer Sans regular;
-                font-size: 38px;
-      letter-spacing: 1px;
-      padding: 0.5rem 6rem;
+                font-size: 26px;
+                letter-spacing: 1px;
+                padding: 0.5rem 4rem;
                 border: none;
                 border-radius: 10px;
                 box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
@@ -675,20 +675,20 @@
   
       .texto-footer {
         font-family: MADE Outer Sans thin;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 100;
         color: #ffffff;
         margin-bottom: 0;
       }
     
       .titulo-footer {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-family: MADE Outer Sans thin;
         color: white;
       }
     
       .logo-footer {
-        width: 70px;
+        width: 50px;
         color: white;
       }
     
