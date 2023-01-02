@@ -54,6 +54,12 @@
   z-index: 1;
   background-color: white;
 }
+.header button:focus {
+  outline: none;
+}
+.header button svg:focus {
+  outline: none;
+}
 .header .navbar {
   padding: 0 0;
 }
@@ -77,7 +83,7 @@ main .section1 {
   position: relative;
   z-index: 0;
   padding: 0 0;
-  height: 768px;
+  height: 700px;
 }
 main .section1 .container {
   padding-right: 0;
@@ -335,7 +341,7 @@ main .section-formulario .container .formulario form .input-formulario-general {
   }
   main .section-formulario .row .formulario form .form-control,
 main .section-formulario .container .formulario form .form-control {
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
   }
   main .section-formulario .row .formulario form .boton-formulario,
@@ -365,14 +371,14 @@ main .section-formulario .container .formulario form .boton-formulario {
     font-size: 28px;
   }
   main .section1 {
-    background-image: url("../footage/Responsive banner.jpg");
-    background-size: contain;
+    background-image: url("../footage/Responsive banner2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     display: flex;
-    height: 143vh;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    height: 100%;
   }
   main .section1 .desaparece {
     display: none;
@@ -382,7 +388,9 @@ main .section-formulario .container .formulario form .boton-formulario {
   }
   main .section1 .container {
     max-width: 830px;
-    height: 40vh;
+  }
+  main .section1 .container .row .columnas-banner {
+    max-width: 768px;
   }
   main .section1 .container .row .boton-banner {
     font-size: 21px;
@@ -390,13 +398,18 @@ main .section-formulario .container .formulario form .boton-formulario {
     border: none;
   }
   main .section1 .container .row .texto-banner {
-    font-size: 4.5vw;
+    font-size: 2rem;
+    padding-top: 1rem;
   }
   main .section1 .container .row .boton-banner-aparece {
     display: block;
+    padding-bottom: 3rem;
   }
   main .section1 .container .row .boton-banner-aparece .boton-banner {
     font-size: 28px;
+  }
+  main .section1 .container .row .boton-banner-aparece .img-aparece {
+    width: 80vw;
   }
   main .section1 .container .row .desaparece {
     display: none;
@@ -478,6 +491,11 @@ main .section-formulario .container .formulario form .boton-formulario {
   }
 }
 @media (max-width: 425px) and (min-width: 10px) {
+  .boton-contacto {
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+  }
   #opciones {
     background-color: white;
   }
@@ -502,15 +520,15 @@ main .section-formulario .container .formulario form .boton-formulario {
     font-size: 28px;
   }
   main .section1 {
-    background-image: url("../footage/Responsive banner.jpg");
-    background-size: contain;
+    background-image: url("../footage/Responsive banner2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     display: flex;
-    height: 77vh;
+    height: 100%;
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 1rem;
+    justify-content: space-between;
   }
   main .section1 .desaparece {
     display: none;
@@ -520,22 +538,28 @@ main .section-formulario .container .formulario form .boton-formulario {
   }
   main .section1 .container {
     max-width: 830px;
-    height: 18vh;
   }
   main .section1 .container .row .boton-banner {
     font-size: 21px;
-    padding: 3vh 3vw;
+    padding: 3vh 18vw;
     border: none;
   }
   main .section1 .container .row .texto-banner {
     padding-top: 1rem;
-    font-size: 5.7vw;
+    font-size: 6vw;
   }
   main .section1 .container .row .boton-banner-aparece {
     display: block;
+    padding-bottom: 3rem;
   }
   main .section1 .container .row .boton-banner-aparece .boton-banner {
-    font-size: 17px;
+    font-size: 20px;
+  }
+  main .section1 .container .row .boton-banner-aparece .img-aparece {
+    width: 80vw;
+  }
+  main .section1 .container .row .desaparece {
+    display: none;
   }
   main .section1 .container .row .desaparece {
     display: none;
@@ -571,22 +595,28 @@ main .section-formulario .container .formulario form .boton-formulario {
     height: 170vh;
     background-position-x: center;
   }
-  main .section-formulario .container .form-textos {
+  main .section-formulario .container .form-textos, main .section-formulario .row .form-textos {
     padding-right: 0;
     text-align: center;
   }
-  main .section-formulario .container .form-textos .img-formulario {
+  main .section-formulario .container .form-textos .img-formulario, main .section-formulario .row .form-textos .img-formulario {
     width: 77vw;
     margin-bottom: 1rem;
   }
-  main .section-formulario .container .form-textos .texto-formulario {
+  main .section-formulario .container .form-textos .texto-formulario, main .section-formulario .row .form-textos .texto-formulario {
     font-size: 21px;
   }
-  main .section-formulario .container .formulario {
+  main .section-formulario .container .formulario, main .section-formulario .row .formulario {
     padding: 0;
     text-align: center;
   }
-  main .section-formulario .container .formulario .titulo-form {
+  main .section-formulario .container .formulario form .boton-formulario, main .section-formulario .row .formulario form .boton-formulario {
+    padding: 0.6rem 35vw;
+  }
+  main .section-formulario .container .formulario form .form-control, main .section-formulario .row .formulario form .form-control {
+    font-size: 15px;
+  }
+  main .section-formulario .container .formulario .titulo-form, main .section-formulario .row .formulario .titulo-form {
     font-size: 38px;
   }
   footer {
