@@ -468,7 +468,7 @@ main .section-formulario .container .formulario form .input-formulario-general {
 main .section-formulario .container .formulario form .form-control {
     color: red;
     font-family: MADE Outer Sans thin;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 10px;
   }
   main .section-formulario .row .formulario form .form-control:focus,
