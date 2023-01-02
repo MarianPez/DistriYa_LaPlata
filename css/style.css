@@ -27,9 +27,9 @@
 @media (min-width: 1441px) {
   .boton-contacto {
     position: fixed;
-    width: 130px;
-    height: 130px;
-    line-height: 120px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
     bottom: 34px;
     right: 35px;
     background-color: #9e192c;
@@ -46,7 +46,7 @@
     box-shadow: none;
   }
   .boton-contacto svg {
-    width: 70px;
+    width: 45px;
   }
   .header {
     height: 13vh;
@@ -215,7 +215,7 @@ main .section-formulario .container .formulario form .form-group {
 main .section-formulario .container .formulario form .input-formulario-general {
     font-family: MADE Outer Sans thin;
     font-size: 35px;
-    height: 70px;
+    height: 60px;
     margin-right: 1rem;
     padding: 0;
     padding-left: 5px;
@@ -224,7 +224,7 @@ main .section-formulario .container .formulario form .input-formulario-general {
 main .section-formulario .container .formulario form .form-control {
     color: red;
     font-family: MADE Outer Sans thin;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     border-radius: 10px;
   }
   main .section-formulario .row .formulario form .form-control:focus,
@@ -237,9 +237,9 @@ main .section-formulario .container .formulario form .boton-formulario {
     background-color: #9e192c;
     color: white;
     font-family: MADE Outer Sans regular;
-    font-size: 50px;
+    font-size: 38px;
     letter-spacing: 1px;
-    padding: 1rem 12rem;
+    padding: 0.5rem 6rem;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
@@ -260,30 +260,30 @@ main .section-formulario .container .formulario form hr {
   }
   footer .texto-footer {
     font-family: MADE Outer Sans thin;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-weight: 100;
     color: #ffffff;
     margin-bottom: 0;
   }
   footer .titulo-footer {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-family: MADE Outer Sans thin;
     color: white;
   }
   footer .logo-footer {
-    width: 100px;
+    width: 70px;
     color: white;
   }
   footer .titulo-footer2 {
     color: white;
     font-family: MADE Outer Sans Bold;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
   }
   footer .texto-footer {
     color: white;
     font-family: MADE Outer Sans thin;
-    font-size: 2.3rem;
+    font-size: 1.52 0.3rem;
     margin-bottom: 1rem;
   }
 }
@@ -440,10 +440,6 @@ main .section-formulario .container .form-textos .texto-formulario {
   main .section-formulario .row .form-textos .img-formulario,
 main .section-formulario .container .form-textos .img-formulario {
     width: 37vw;
-  }
-  main .section-formulario .row .formulario,
-main .section-formulario .container .formulario {
-    padding-left: 3rem;
   }
   main .section-formulario .row .formulario .titulo-form,
 main .section-formulario .container .formulario .titulo-form {
@@ -643,7 +639,7 @@ main .section-formulario .container .formulario form .boton-formulario {
     font-size: 28px;
   }
   main .section1 {
-    background-image: url("../footage/Responsive banner2.jpg");
+    background-image: url("https://i.postimg.cc/yYjc4Rb3/Responsive-banner2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -798,7 +794,7 @@ main .section-formulario .container .formulario form .boton-formulario {
     font-size: 28px;
   }
   main .section1 {
-    background-image: url("../footage/Responsive banner2.jpg");
+    background-image: url("https://i.postimg.cc/yYjc4Rb3/Responsive-banner2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
