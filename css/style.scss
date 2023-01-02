@@ -345,7 +345,7 @@
     }
   
     .titulo-footer {
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-family: MADE Outer Sans thin;
       color: white;
     }
@@ -358,14 +358,14 @@
     .titulo-footer2 {
       color: white;
       font-family: MADE Outer Sans Bold;
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin-bottom: 0;
     }
   
     .texto-footer {
       color: white;
       font-family: MADE Outer Sans thin;
-      font-size: 1.52.3rem;
+      font-size: 1rem;
       margin-bottom: 1rem;
     }
   }
@@ -667,7 +667,7 @@ footer {
   }
 
   .logo-footer {
-    width: 60px;
+    width: 50px;
     color: white;
   }
 
@@ -889,6 +889,7 @@ footer {
 
           .col-md-6 {
             max-width: 100%;
+            flex: 100%;
           }
 
           .columnas-banner {
@@ -1004,11 +1005,11 @@ footer {
   }
 
   footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
     .texto-footer {
-      font-size: 1.5rem;
+      font-size: 1rem;
       padding-top: 1rem;
     }
 
@@ -1018,11 +1019,11 @@ footer {
 
 
     .titulo-footer2 {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
     .titulo-footer {
-      font-size: 1.6rem;
+      font-size: 1rem;
     }
 
     .contenedor-footer {
@@ -1034,7 +1035,7 @@ footer {
     }
 
     .texto-footer2 {
-      font-size: 1.8rem;
+      font-size: 1rem;
       margin-bottom: 2rem;
     }
   }
@@ -1252,7 +1253,7 @@ footer {
     padding-bottom: 1rem;
 
     .texto-footer {
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding-top: 1rem;
     }
 
@@ -1262,11 +1263,11 @@ footer {
 
 
     .titulo-footer2 {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     .titulo-footer {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     .contenedor-footer {
@@ -1278,7 +1279,7 @@ footer {
     }
 
     .texto-footer2 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-bottom: 2rem;
     }
   }
