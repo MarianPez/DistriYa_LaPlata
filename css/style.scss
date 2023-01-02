@@ -36,344 +36,344 @@
 
 
 
-@media (min-width: 1800px) {
+// @media (min-width: 1800px) {
 
   
-.boton-contacto {
-  position: fixed;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  bottom: 34px;
-  right: 35px;
-  background-color: #9e192c;
-  color: white;
-  border-radius: 89px;
-  text-align: center;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
-  z-index: 100;
+// .boton-contacto {
+//   position: fixed;
+//   width: 80px;
+//   height: 80px;
+//   line-height: 80px;
+//   bottom: 34px;
+//   right: 35px;
+//   background-color: #9e192c;
+//   color: white;
+//   border-radius: 89px;
+//   text-align: center;
+//   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+//   z-index: 100;
 
   
-  &:hover {
-    color: white;
-  }
+//   &:hover {
+//     color: white;
+//   }
 
-  &:active {
-    box-shadow: none;
-  }
+//   &:active {
+//     box-shadow: none;
+//   }
 
 
-  svg{
-    width: 45px;
-  }
- }
+//   svg{
+//     width: 45px;
+//   }
+//  }
 
-  .header {
-    height: 13vh;
-    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    padding: 0 7rem;
+//   .header {
+//     height: 13vh;
+//     box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+//     -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+//     -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+//     position: relative;
+//     z-index: 1;
+//     background-color: white;
+//     padding: 0 7rem;
     
-  .container{
-    max-width: 2300px;
-  }
+//   .container{
+//     max-width: 2300px;
+//   }
   
-    button {
+//     button {
   
-      &:focus {
-        outline: none;
-      }
+//       &:focus {
+//         outline: none;
+//       }
   
      
-    }
+//     }
   
-    .navbar {
-      padding: 0 0;
+//     .navbar {
+//       padding: 0 0;
   
-      .nav-item {
-        .nav-link {
-          color: black;
-          font-family: MADE Outer Sans medium;
-          font-size: 40px;
-        }
-      }
+//       .nav-item {
+//         .nav-link {
+//           color: black;
+//           font-family: MADE Outer Sans medium;
+//           font-size: 40px;
+//         }
+//       }
   
   
-      svg {
+//       svg {
   
-        width: 70px;
-        height: auto;
+//         width: 70px;
+//         height: auto;
   
-        &:focus {
-          outline: none;
-        }
-      }
+//         &:focus {
+//           outline: none;
+//         }
+//       }
   
-      .logo {
-        width: 350px;
-        height: auto;
-      }
+//       .logo {
+//         width: 350px;
+//         height: auto;
+//       }
   
-      .navbar-collapse {
-        flex-grow: 0;
-      }
-    }
-  }
+//       .navbar-collapse {
+//         flex-grow: 0;
+//       }
+//     }
+//   }
   
-  // MAIN
+//   // MAIN
   
-  main {
-    // Section 1
+//   main {
+//     // Section 1
   
-    .section1 {
-      background-image: url("https://i.postimg.cc/yxpHzv48/Background-banner3.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-      z-index: 0;
-      padding: 0 0;
+//     .section1 {
+//       background-image: url("https://i.postimg.cc/yxpHzv48/Background-banner3.jpg");
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       position: relative;
+//       z-index: 0;
+//       padding: 0 0;
   
-      .container {
-        padding-right: 0;
-        max-width: 2300px;
-        padding-bottom: 5rem;
+//       .container {
+//         padding-right: 0;
+//         max-width: 2300px;
+//         padding-bottom: 5rem;
 
-        .align-items-xl-end{
-          align-items: center !important;
-        }
+//         .align-items-xl-end{
+//           align-items: center !important;
+//         }
   
-        .row {
-          margin: 0 0;
+//         .row {
+//           margin: 0 0;
   
-          .img-banner-desaparece {
-            width: 45vw;
-            padding-top: 1rem;
-          }
+//           .img-banner-desaparece {
+//             width: 45vw;
+//             padding-top: 1rem;
+//           }
   
-          .logo-banner {
-            width: 38vw;
-          }
+//           .logo-banner {
+//             width: 38vw;
+//           }
   
-          .texto-banner {
-            font-family: MADE Outer Sans bold;
-            color: #9e192c;
-            font-size: 2.7vw;
-            text-align: center;
-          }
+//           .texto-banner {
+//             font-family: MADE Outer Sans bold;
+//             color: #9e192c;
+//             font-size: 2.7vw;
+//             text-align: center;
+//           }
   
-          .boton-banner {
-            background-color: #9e192c;
-            color: white;
-            font-family: MADE Outer Sans black;
-            font-size: 50px;
-            letter-spacing: 1px;
-            padding: 3vh 3vw;
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-            -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-            -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//           .boton-banner {
+//             background-color: #9e192c;
+//             color: white;
+//             font-family: MADE Outer Sans black;
+//             font-size: 50px;
+//             letter-spacing: 1px;
+//             padding: 3vh 3vw;
+//             border: none;
+//             border-radius: 10px;
+//             box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//             -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//             -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
   
-            &:active {
-              box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-              -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-              -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-              outline: none;
-            }
+//             &:active {
+//               box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+//               -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+//               -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+//               outline: none;
+//             }
   
-            &:focus {
-              outline: none;
-            }
-          }
+//             &:focus {
+//               outline: none;
+//             }
+//           }
   
-          .boton-banner-aparece {
-            display: none;
-          }
-        }
-      }
-    }
+//           .boton-banner-aparece {
+//             display: none;
+//           }
+//         }
+//       }
+//     }
   
-    // Section 2
+//     // Section 2
   
-    .container{
-      max-width: 2300px;
-    }
+//     .container{
+//       max-width: 2300px;
+//     }
 
-    .section-nuestras-marcas {
+//     .section-nuestras-marcas {
 
-      padding-top: 2rem;
+//       padding-top: 2rem;
      
 
-      h1 {
-        font-family: MADE Outer Sans Bold;
-        font-size: 7rem;
-        color: black;
-      }
+//       h1 {
+//         font-family: MADE Outer Sans Bold;
+//         font-size: 7rem;
+//         color: black;
+//       }
   
-      .imagen-productos {
-        padding: 0 4px;
-        margin-bottom: 11px;
-        width: 26vw;
-      }
-    }
+//       .imagen-productos {
+//         padding: 0 4px;
+//         margin-bottom: 11px;
+//         width: 26vw;
+//       }
+//     }
   
-    // Section 3
+//     // Section 3
   
-    .section-datos {
-      background-color: #d9d9d9;
+//     .section-datos {
+//       background-color: #d9d9d9;
   
-      h3 {
-        font-family: MADE Outer Sans Medium;
-        font-size: 40px;
-      }
+//       h3 {
+//         font-family: MADE Outer Sans Medium;
+//         font-size: 40px;
+//       }
   
-      p {
-        font-family: MADE Outer Sans thin;
-        font-size: 30px;
-        padding: 0 3rem;
-      }
+//       p {
+//         font-family: MADE Outer Sans thin;
+//         font-size: 30px;
+//         padding: 0 3rem;
+//       }
   
-      img {
-        width: 8vw;
-      }
-    }
+//       img {
+//         width: 8vw;
+//       }
+//     }
   
-    // FORMULARIO
+//     // FORMULARIO
   
-    .section-formulario {
-      background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
-      background-size: cover;
-      padding: 12rem 8rem;
+//     .section-formulario {
+//       background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
+//       background-size: cover;
+//       padding: 12rem 8rem;
   
-      .row,
-      .container {
-        .form-textos {
-          padding-right: 3rem;
+//       .row,
+//       .container {
+//         .form-textos {
+//           padding-right: 3rem;
   
-          .texto-formulario {
-            color: white;
-            font-family: MADE Outer Sans bold;
-            font-size: 2vw;
-          }
+//           .texto-formulario {
+//             color: white;
+//             font-family: MADE Outer Sans bold;
+//             font-size: 2vw;
+//           }
   
-          .img-formulario {
-            width: 38vw;
-          }
-        }
+//           .img-formulario {
+//             width: 38vw;
+//           }
+//         }
   
-        .formulario {
-          padding-left: 3rem;
+//         .formulario {
+//           padding-left: 3rem;
   
-          .titulo-form {
-            color: white;
-            font-family: MADE Outer Sans black;
-            font-size: 70px;
-          }
+//           .titulo-form {
+//             color: white;
+//             font-family: MADE Outer Sans black;
+//             font-size: 70px;
+//           }
   
-          form {
-            color: white;
+//           form {
+//             color: white;
   
-            .form-group {
-              margin-bottom: 0.5rem;
-            }
+//             .form-group {
+//               margin-bottom: 0.5rem;
+//             }
   
-            .input-formulario-general {
-              font-family: MADE Outer Sans thin;
-              font-size: 35px;
-              height: 60px;
-              margin-right: 1rem;
-              padding: 0;
-              padding-left: 5px;
-            }
+//             .input-formulario-general {
+//               font-family: MADE Outer Sans thin;
+//               font-size: 35px;
+//               height: 60px;
+//               margin-right: 1rem;
+//               padding: 0;
+//               padding-left: 5px;
+//             }
   
-            .form-control {
-              color: red;
-              font-family: MADE Outer Sans thin;
-              font-size: 1.2vw;
-              border-radius: 10px;
+//             .form-control {
+//               color: red;
+//               font-family: MADE Outer Sans thin;
+//               font-size: 1.2vw;
+//               border-radius: 10px;
   
-              &:focus {
-                border-color: #9e192c;
-                box-shadow: none;
-              }
-            }
+//               &:focus {
+//                 border-color: #9e192c;
+//                 box-shadow: none;
+//               }
+//             }
   
-            .boton-formulario {
-              background-color: #9e192c;
-              color: white;
-              font-family: MADE Outer Sans regular;
-              font-size: 38px;
-    letter-spacing: 1px;
-    padding: 0.5rem 6rem;
-              border: none;
-              border-radius: 10px;
-              box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-              -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-              -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-            }
+//             .boton-formulario {
+//               background-color: #9e192c;
+//               color: white;
+//               font-family: MADE Outer Sans regular;
+//               font-size: 38px;
+//     letter-spacing: 1px;
+//     padding: 0.5rem 6rem;
+//               border: none;
+//               border-radius: 10px;
+//               box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//               -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//               -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+//             }
   
-            hr {
-              height: 2px;
-              background-color: #9e192c;
-            }
-          }
-        }
-      }
-    }
-  }
+//             hr {
+//               height: 2px;
+//               background-color: #9e192c;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
   
-  // FOOTER
+//   // FOOTER
   
-  footer {
-    background-color: #9e192c;
-    padding: 0 7rem;
+//   footer {
+//     background-color: #9e192c;
+//     padding: 0 7rem;
   
-.container{
-  max-width: 2300px;
-}
+// .container{
+//   max-width: 2300px;
+// }
 
-    .texto-footer {
-      font-family: MADE Outer Sans thin;
-      font-size: 1.5rem;
-      font-weight: 100;
-      color: #ffffff;
-      margin-bottom: 0;
-    }
+//     .texto-footer {
+//       font-family: MADE Outer Sans thin;
+//       font-size: 1.5rem;
+//       font-weight: 100;
+//       color: #ffffff;
+//       margin-bottom: 0;
+//     }
   
-    .titulo-footer {
-      font-size: 1rem;
-      font-family: MADE Outer Sans thin;
-      color: white;
-    }
+//     .titulo-footer {
+//       font-size: 1rem;
+//       font-family: MADE Outer Sans thin;
+//       color: white;
+//     }
   
-    .logo-footer {
-      width: 70px;
-      color: white;
-    }
+//     .logo-footer {
+//       width: 70px;
+//       color: white;
+//     }
   
-    .titulo-footer2 {
-      color: white;
-      font-family: MADE Outer Sans Bold;
-      font-size: 1rem;
-      margin-bottom: 0;
-    }
+//     .titulo-footer2 {
+//       color: white;
+//       font-family: MADE Outer Sans Bold;
+//       font-size: 1rem;
+//       margin-bottom: 0;
+//     }
   
-    .texto-footer {
-      color: white;
-      font-family: MADE Outer Sans thin;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-  }
-}
+//     .texto-footer {
+//       color: white;
+//       font-family: MADE Outer Sans thin;
+//       font-size: 1rem;
+//       margin-bottom: 1rem;
+//     }
+//   }
+// }
 
 
 
-@media (max-width:1779px) and (min-width: 1441px) {
+@media (min-width: 1441px) {
 
   
   .boton-contacto {
