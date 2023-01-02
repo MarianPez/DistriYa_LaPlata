@@ -892,7 +892,7 @@ footer {
           }
 
           .columnas-banner {
-            max-width: 768px;
+            max-width: 100%;
           }
 
           .boton-banner {
@@ -1220,7 +1220,7 @@ footer {
         }
 
         .formulario {
-          padding: 0;
+          padding: 0 1rem;
 
           form {
             .boton-formulario {
@@ -1228,7 +1228,7 @@ footer {
             }
 
             .form-control {
-              font-size: 15px;
+              font-size: 14px;
             }
           }
 

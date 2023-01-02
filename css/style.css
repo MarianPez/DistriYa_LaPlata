@@ -664,7 +664,7 @@ main .section-formulario .container .formulario form .boton-formulario {
     max-width: 100%;
   }
   main .section1 .container .row .columnas-banner {
-    max-width: 768px;
+    max-width: 100%;
   }
   main .section1 .container .row .boton-banner {
     font-size: 21px;
@@ -885,7 +885,7 @@ main .section-formulario .row .form-textos .texto-formulario {
   }
   main .section-formulario .container .formulario,
 main .section-formulario .row .formulario {
-    padding: 0;
+    padding: 0 1rem;
     text-align: center;
   }
   main .section-formulario .container .formulario form .boton-formulario,
@@ -894,7 +894,7 @@ main .section-formulario .row .formulario form .boton-formulario {
   }
   main .section-formulario .container .formulario form .form-control,
 main .section-formulario .row .formulario form .form-control {
-    font-size: 15px;
+    font-size: 14px;
   }
   main .section-formulario .container .formulario .titulo-form,
 main .section-formulario .row .formulario .titulo-form {
