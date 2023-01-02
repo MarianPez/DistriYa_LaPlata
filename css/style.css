@@ -24,241 +24,511 @@
   padding: 0;
 }
 
-.boton-contacto {
-  position: fixed;
-  width: 70px;
-  height: 70px;
-  line-height: 65px;
-  bottom: 34px;
-  right: 35px;
-  background-color: #9e192c;
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
-  z-index: 100;
-}
-.boton-contacto:hover {
-  color: white;
-}
-.boton-contacto:active {
-  box-shadow: none;
-}
-
-.header {
-  height: 13vh;
-  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
-  position: relative;
-  z-index: 1;
-  background-color: white;
-}
-.header button:focus {
-  outline: none;
-}
-.header button svg:focus {
-  outline: none;
-}
-.header .navbar {
-  padding: 0 0;
-}
-.header .navbar .nav-item .nav-link {
-  color: black;
-  font-family: MADE Outer Sans medium;
-  font-size: 24px;
-}
-.header .navbar .logo {
-  width: 200px;
-  height: auto;
-}
-.header .navbar .navbar-collapse {
-  flex-grow: 0;
-}
-
-main .section1 {
-  background-image: url("../footage/Background banner.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 0;
-  padding: 0 0;
-  height: 700px;
-}
-main .section1 .container {
-  padding-right: 0;
-}
-main .section1 .container .row {
-  margin: 0 0;
-}
-main .section1 .container .row .logo-banner {
-  width: 38vw;
-}
-main .section1 .container .row .texto-banner {
-  font-family: MADE Outer Sans bold;
-  color: #9e192c;
-  font-size: 2.7vw;
-  text-align: center;
-}
-main .section1 .container .row .boton-banner {
-  background-color: #9e192c;
-  color: white;
-  font-family: MADE Outer Sans black;
-  font-size: 28px;
-  letter-spacing: 1px;
-  padding: 3vh 3vw;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-}
-main .section1 .container .row .boton-banner:active {
-  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
-  outline: none;
-}
-main .section1 .container .row .boton-banner:focus {
-  outline: none;
-}
-main .section1 .container .row .boton-banner-aparece {
-  display: none;
-}
-main .section-nuestras-marcas h1 {
-  font-family: MADE Outer Sans Bold;
-  font-size: 4rem;
-  color: black;
-}
-main .section-nuestras-marcas .imagen-productos {
-  padding: 0 4px;
-  margin-bottom: 11px;
-  width: 26vw;
-}
-main .section-datos {
-  background-color: #d9d9d9;
-}
-main .section-datos h3 {
-  font-family: MADE Outer Sans Medium;
-  font-size: 19px;
-}
-main .section-datos p {
-  font-family: MADE Outer Sans thin;
-  font-size: 16px;
-}
-main .section-datos img {
-  width: 6vw;
-}
-main .section-formulario {
-  background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
-  background-size: cover;
-  height: 160vh;
-}
-main .section-formulario .row .form-textos,
+@media (min-width: 1441px) {
+  .boton-contacto {
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    line-height: 120px;
+    bottom: 34px;
+    right: 35px;
+    background-color: #9e192c;
+    color: white;
+    border-radius: 89px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  }
+  .boton-contacto:hover {
+    color: white;
+  }
+  .boton-contacto:active {
+    box-shadow: none;
+  }
+  .boton-contacto svg {
+    width: 70px;
+  }
+  .header {
+    height: 13vh;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+  }
+  .header .container {
+    max-width: 2300px;
+  }
+  .header button:focus {
+    outline: none;
+  }
+  .header .navbar {
+    padding: 0 0;
+  }
+  .header .navbar .nav-item .nav-link {
+    color: black;
+    font-family: MADE Outer Sans medium;
+    font-size: 40px;
+  }
+  .header .navbar svg {
+    width: 70px;
+    height: auto;
+  }
+  .header .navbar svg:focus {
+    outline: none;
+  }
+  .header .navbar .logo {
+    width: 350px;
+    height: auto;
+  }
+  .header .navbar .navbar-collapse {
+    flex-grow: 0;
+  }
+  main .section1 {
+    background-image: url("../footage/Background banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    padding: 0 0;
+  }
+  main .section1 .container {
+    padding-right: 0;
+    max-width: 2300px;
+    padding-bottom: 5rem;
+  }
+  main .section1 .container .align-items-xl-end {
+    align-items: center !important;
+  }
+  main .section1 .container .row {
+    margin: 0 0;
+  }
+  main .section1 .container .row .img-banner-desaparece {
+    width: 45vw;
+    padding-top: 1rem;
+  }
+  main .section1 .container .row .logo-banner {
+    width: 38vw;
+  }
+  main .section1 .container .row .texto-banner {
+    font-family: MADE Outer Sans bold;
+    color: #9e192c;
+    font-size: 2.7vw;
+    text-align: center;
+  }
+  main .section1 .container .row .boton-banner {
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 3vh 3vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section1 .container .row .boton-banner:active {
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner:focus {
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner-aparece {
+    display: none;
+  }
+  main .container {
+    max-width: 2300px;
+  }
+  main .section-nuestras-marcas {
+    padding-top: 2rem;
+  }
+  main .section-nuestras-marcas h1 {
+    font-family: MADE Outer Sans Bold;
+    font-size: 7rem;
+    color: black;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    padding: 0 4px;
+    margin-bottom: 11px;
+    width: 26vw;
+  }
+  main .section-datos {
+    background-color: #d9d9d9;
+  }
+  main .section-datos h3 {
+    font-family: MADE Outer Sans Medium;
+    font-size: 40px;
+  }
+  main .section-datos p {
+    font-family: MADE Outer Sans thin;
+    font-size: 30px;
+    padding: 0 3rem;
+  }
+  main .section-datos img {
+    width: 8vw;
+  }
+  main .section-formulario {
+    background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
+    background-size: cover;
+    padding: 12rem 0;
+  }
+  main .section-formulario .row .form-textos,
 main .section-formulario .container .form-textos {
-  padding-right: 3rem;
-}
-main .section-formulario .row .form-textos .texto-formulario,
+    padding-right: 3rem;
+  }
+  main .section-formulario .row .form-textos .texto-formulario,
 main .section-formulario .container .form-textos .texto-formulario {
-  color: white;
-  font-family: MADE Outer Sans bold;
-  font-size: 29px;
-}
-main .section-formulario .row .form-textos .img-formulario,
+    color: white;
+    font-family: MADE Outer Sans bold;
+    font-size: 60px;
+  }
+  main .section-formulario .row .form-textos .img-formulario,
 main .section-formulario .container .form-textos .img-formulario {
-  width: 37vw;
-}
-main .section-formulario .row .formulario,
+    width: 41vw;
+  }
+  main .section-formulario .row .formulario,
 main .section-formulario .container .formulario {
-  padding-left: 3rem;
-}
-main .section-formulario .row .formulario .titulo-form,
+    padding-left: 3rem;
+  }
+  main .section-formulario .row .formulario .titulo-form,
 main .section-formulario .container .formulario .titulo-form {
-  color: white;
-  font-family: MADE Outer Sans black;
-  font-size: 45px;
-}
-main .section-formulario .row .formulario form,
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 85px;
+  }
+  main .section-formulario .row .formulario form,
 main .section-formulario .container .formulario form {
-  color: white;
-}
-main .section-formulario .row .formulario form .form-group,
+    color: white;
+  }
+  main .section-formulario .row .formulario form .form-group,
 main .section-formulario .container .formulario form .form-group {
-  margin-bottom: 0.5rem;
-}
-main .section-formulario .row .formulario form .input-formulario-general,
+    margin-bottom: 0.5rem;
+  }
+  main .section-formulario .row .formulario form .input-formulario-general,
 main .section-formulario .container .formulario form .input-formulario-general {
-  font-family: MADE Outer Sans thin;
-  font-size: 20px;
-  height: 48px;
-  margin-right: 1rem;
-  padding: 0;
-  padding-left: 5px;
-}
-main .section-formulario .row .formulario form .form-control,
+    font-family: MADE Outer Sans thin;
+    font-size: 45px;
+    height: 85px;
+    margin-right: 1rem;
+    padding: 0;
+    padding-left: 5px;
+  }
+  main .section-formulario .row .formulario form .form-control,
 main .section-formulario .container .formulario form .form-control {
-  color: red;
-  font-family: MADE Outer Sans thin;
-  font-size: 18px;
-  border-radius: 10px;
-}
-main .section-formulario .row .formulario form .form-control:focus,
+    color: red;
+    font-family: MADE Outer Sans thin;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  main .section-formulario .row .formulario form .form-control:focus,
 main .section-formulario .container .formulario form .form-control:focus {
-  border-color: #9e192c;
-  box-shadow: none;
-}
-main .section-formulario .row .formulario form .boton-formulario,
+    border-color: #9e192c;
+    box-shadow: none;
+  }
+  main .section-formulario .row .formulario form .boton-formulario,
 main .section-formulario .container .formulario form .boton-formulario {
-  background-color: #9e192c;
-  color: white;
-  font-family: MADE Outer Sans regular;
-  font-size: 25px;
-  letter-spacing: 1px;
-  padding: 0.6rem 5rem;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-}
-main .section-formulario .row .formulario form hr,
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans regular;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 1rem 12rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section-formulario .row .formulario form hr,
 main .section-formulario .container .formulario form hr {
-  height: 2px;
-  background-color: #9e192c;
+    height: 2px;
+    background-color: #9e192c;
+  }
+  footer {
+    background-color: #9e192c;
+  }
+  footer .container {
+    max-width: 2300px;
+  }
+  footer .texto-footer {
+    font-family: MADE Outer Sans thin;
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  footer .titulo-footer {
+    font-size: 2.3rem;
+    font-family: MADE Outer Sans thin;
+    color: white;
+  }
+  footer .logo-footer {
+    width: 100px;
+    color: white;
+  }
+  footer .titulo-footer2 {
+    color: white;
+    font-family: MADE Outer Sans Bold;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+  }
+  footer .texto-footer {
+    color: white;
+    font-family: MADE Outer Sans thin;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+  }
 }
-
-footer {
-  background-color: #9e192c;
+@media (max-width: 1440px) {
+  .boton-contacto {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    bottom: 34px;
+    right: 35px;
+    background-color: #9e192c;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  }
+  .boton-contacto:hover {
+    color: white;
+  }
+  .boton-contacto:active {
+    box-shadow: none;
+  }
+  .boton-contacto svg {
+    width: 35px;
+  }
+  .header {
+    height: 13vh;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+  }
+  .header button:focus {
+    outline: none;
+  }
+  .header .navbar {
+    padding: 0 0;
+  }
+  .header .navbar .nav-item .nav-link {
+    color: black;
+    font-family: MADE Outer Sans medium;
+    font-size: 24px;
+  }
+  .header .navbar svg {
+    width: 35px;
+    height: auto;
+  }
+  .header .navbar svg:focus {
+    outline: none;
+  }
+  .header .navbar .logo {
+    width: 200px;
+    height: auto;
+  }
+  .header .navbar .navbar-collapse {
+    flex-grow: 0;
+  }
+  main .section1 {
+    background-image: url("../footage/Background banner3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    padding: 0 0;
+    height: 700px;
+  }
+  main .section1 .container {
+    padding-right: 0;
+  }
+  main .section1 .container .row {
+    margin: 0 0;
+  }
+  main .section1 .container .row .img-banner-desaparece {
+    width: 40vw;
+    padding-top: 1rem;
+  }
+  main .section1 .container .row .logo-banner {
+    width: 38vw;
+  }
+  main .section1 .container .row .texto-banner {
+    font-family: MADE Outer Sans bold;
+    color: #9e192c;
+    font-size: 2.7vw;
+    text-align: center;
+  }
+  main .section1 .container .row .boton-banner {
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 3vh 3vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section1 .container .row .boton-banner:active {
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner:focus {
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner-aparece {
+    display: none;
+  }
+  main .section-nuestras-marcas h1 {
+    font-family: MADE Outer Sans Bold;
+    font-size: 4rem;
+    color: black;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    padding: 0 4px;
+    margin-bottom: 11px;
+    width: 26vw;
+  }
+  main .section-datos {
+    background-color: #d9d9d9;
+  }
+  main .section-datos h3 {
+    font-family: MADE Outer Sans Medium;
+    font-size: 19px;
+  }
+  main .section-datos p {
+    font-family: MADE Outer Sans thin;
+    font-size: 16px;
+  }
+  main .section-datos img {
+    width: 6vw;
+  }
+  main .section-formulario {
+    background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
+    background-size: cover;
+    height: 160vh;
+  }
+  main .section-formulario .row .form-textos,
+main .section-formulario .container .form-textos {
+    padding-right: 3rem;
+  }
+  main .section-formulario .row .form-textos .texto-formulario,
+main .section-formulario .container .form-textos .texto-formulario {
+    color: white;
+    font-family: MADE Outer Sans bold;
+    font-size: 29px;
+  }
+  main .section-formulario .row .form-textos .img-formulario,
+main .section-formulario .container .form-textos .img-formulario {
+    width: 37vw;
+  }
+  main .section-formulario .row .formulario,
+main .section-formulario .container .formulario {
+    padding-left: 3rem;
+  }
+  main .section-formulario .row .formulario .titulo-form,
+main .section-formulario .container .formulario .titulo-form {
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 45px;
+  }
+  main .section-formulario .row .formulario form,
+main .section-formulario .container .formulario form {
+    color: white;
+  }
+  main .section-formulario .row .formulario form .form-group,
+main .section-formulario .container .formulario form .form-group {
+    margin-bottom: 0.5rem;
+  }
+  main .section-formulario .row .formulario form .input-formulario-general,
+main .section-formulario .container .formulario form .input-formulario-general {
+    font-family: MADE Outer Sans thin;
+    font-size: 20px;
+    height: 48px;
+    margin-right: 1rem;
+    padding: 0;
+    padding-left: 5px;
+  }
+  main .section-formulario .row .formulario form .form-control,
+main .section-formulario .container .formulario form .form-control {
+    color: red;
+    font-family: MADE Outer Sans thin;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  main .section-formulario .row .formulario form .form-control:focus,
+main .section-formulario .container .formulario form .form-control:focus {
+    border-color: #9e192c;
+    box-shadow: none;
+  }
+  main .section-formulario .row .formulario form .boton-formulario,
+main .section-formulario .container .formulario form .boton-formulario {
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans regular;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 0.6rem 5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section-formulario .row .formulario form hr,
+main .section-formulario .container .formulario form hr {
+    height: 2px;
+    background-color: #9e192c;
+  }
+  footer {
+    background-color: #9e192c;
+  }
+  footer .texto-footer {
+    font-family: MADE Outer Sans thin;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  footer .titulo-footer {
+    font-size: 16px;
+    font-family: MADE Outer Sans thin;
+    color: white;
+  }
+  footer .logo-footer {
+    width: 60px;
+    color: white;
+  }
+  footer .titulo-footer2 {
+    color: white;
+    font-family: MADE Outer Sans Bold;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  footer .texto-footer {
+    color: white;
+    font-family: MADE Outer Sans thin;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
 }
-footer .texto-footer {
-  font-family: MADE Outer Sans thin;
-  font-size: 16px;
-  font-weight: 100;
-  color: #ffffff;
-  margin-bottom: 0;
-}
-footer .titulo-footer {
-  font-size: 16px;
-  font-family: MADE Outer Sans thin;
-  color: white;
-}
-footer .logo-footer {
-  width: 60px;
-  color: white;
-}
-footer .titulo-footer2 {
-  color: white;
-  font-family: MADE Outer Sans Bold;
-  font-size: 1rem;
-  margin-bottom: 0;
-}
-footer .texto-footer {
-  color: white;
-  font-family: MADE Outer Sans thin;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
 @media (max-width: 1024px) and (min-width: 769px) {
   header .container {
     max-width: 1024px;
@@ -284,7 +554,7 @@ footer .texto-footer {
     display: block;
   }
   main .section1 .container {
-    max-width: 830px;
+    max-width: 930px;
   }
   main .section1 .container .row .boton-banner {
     font-size: 21px;
@@ -388,6 +658,12 @@ main .section-formulario .container .formulario form .boton-formulario {
   }
   main .section1 .container {
     max-width: 830px;
+  }
+  main .section1 .container .row {
+    justify-content: center;
+  }
+  main .section1 .container .row .col-md-6 {
+    max-width: 100%;
   }
   main .section1 .container .row .columnas-banner {
     max-width: 768px;
@@ -595,28 +871,35 @@ main .section-formulario .container .formulario form .boton-formulario {
     height: 170vh;
     background-position-x: center;
   }
-  main .section-formulario .container .form-textos, main .section-formulario .row .form-textos {
+  main .section-formulario .container .form-textos,
+main .section-formulario .row .form-textos {
     padding-right: 0;
     text-align: center;
   }
-  main .section-formulario .container .form-textos .img-formulario, main .section-formulario .row .form-textos .img-formulario {
+  main .section-formulario .container .form-textos .img-formulario,
+main .section-formulario .row .form-textos .img-formulario {
     width: 77vw;
     margin-bottom: 1rem;
   }
-  main .section-formulario .container .form-textos .texto-formulario, main .section-formulario .row .form-textos .texto-formulario {
+  main .section-formulario .container .form-textos .texto-formulario,
+main .section-formulario .row .form-textos .texto-formulario {
     font-size: 21px;
   }
-  main .section-formulario .container .formulario, main .section-formulario .row .formulario {
+  main .section-formulario .container .formulario,
+main .section-formulario .row .formulario {
     padding: 0;
     text-align: center;
   }
-  main .section-formulario .container .formulario form .boton-formulario, main .section-formulario .row .formulario form .boton-formulario {
+  main .section-formulario .container .formulario form .boton-formulario,
+main .section-formulario .row .formulario form .boton-formulario {
     padding: 0.6rem 35vw;
   }
-  main .section-formulario .container .formulario form .form-control, main .section-formulario .row .formulario form .form-control {
+  main .section-formulario .container .formulario form .form-control,
+main .section-formulario .row .formulario form .form-control {
     font-size: 15px;
   }
-  main .section-formulario .container .formulario .titulo-form, main .section-formulario .row .formulario .titulo-form {
+  main .section-formulario .container .formulario .titulo-form,
+main .section-formulario .row .formulario .titulo-form {
     font-size: 38px;
   }
   footer {

@@ -33,20 +33,27 @@
   padding: 0;
 }
 
+
+
+
+@media (min-width: 1441px) {
+
+  
 .boton-contacto {
   position: fixed;
-  width: 70px;
-  height: 70px;
-  line-height: 65px;
+  width: 130px;
+  height: 130px;
+  line-height: 120px;
   bottom: 34px;
   right: 35px;
   background-color: #9e192c;
   color: white;
-  border-radius: 50px;
+  border-radius: 89px;
   text-align: center;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
   z-index: 100;
 
+  
   &:hover {
     color: white;
   }
@@ -54,9 +61,347 @@
   &:active {
     box-shadow: none;
   }
+
+
+  svg{
+    width: 70px;
+  }
+ }
+
+  .header {
+    height: 13vh;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    
+  .container{
+    max-width: 2300px;
+  }
+  
+    button {
+  
+      &:focus {
+        outline: none;
+      }
+  
+     
+    }
+  
+    .navbar {
+      padding: 0 0;
+  
+      .nav-item {
+        .nav-link {
+          color: black;
+          font-family: MADE Outer Sans medium;
+          font-size: 40px;
+        }
+      }
+  
+  
+      svg {
+  
+        width: 70px;
+        height: auto;
+  
+        &:focus {
+          outline: none;
+        }
+      }
+  
+      .logo {
+        width: 350px;
+        height: auto;
+      }
+  
+      .navbar-collapse {
+        flex-grow: 0;
+      }
+    }
+  }
+  
+  // MAIN
+  
+  main {
+    // Section 1
+  
+    .section1 {
+      background-image: url("../footage/Background\ banner3.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 0;
+      padding: 0 0;
+  
+      .container {
+        padding-right: 0;
+        max-width: 2300px;
+        padding-bottom: 5rem;
+
+        .align-items-xl-end{
+          align-items: center !important;
+        }
+  
+        .row {
+          margin: 0 0;
+  
+          .img-banner-desaparece {
+            width: 45vw;
+            padding-top: 1rem;
+          }
+  
+          .logo-banner {
+            width: 38vw;
+          }
+  
+          .texto-banner {
+            font-family: MADE Outer Sans bold;
+            color: #9e192c;
+            font-size: 2.7vw;
+            text-align: center;
+          }
+  
+          .boton-banner {
+            background-color: #9e192c;
+            color: white;
+            font-family: MADE Outer Sans black;
+            font-size: 50px;
+            letter-spacing: 1px;
+            padding: 3vh 3vw;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  
+            &:active {
+              box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+              -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+              -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+              outline: none;
+            }
+  
+            &:focus {
+              outline: none;
+            }
+          }
+  
+          .boton-banner-aparece {
+            display: none;
+          }
+        }
+      }
+    }
+  
+    // Section 2
+  
+    .container{
+      max-width: 2300px;
+    }
+
+    .section-nuestras-marcas {
+
+      padding-top: 2rem;
+     
+
+      h1 {
+        font-family: MADE Outer Sans Bold;
+        font-size: 7rem;
+        color: black;
+      }
+  
+      .imagen-productos {
+        padding: 0 4px;
+        margin-bottom: 11px;
+        width: 26vw;
+      }
+    }
+  
+    // Section 3
+  
+    .section-datos {
+      background-color: #d9d9d9;
+  
+      h3 {
+        font-family: MADE Outer Sans Medium;
+        font-size: 40px;
+      }
+  
+      p {
+        font-family: MADE Outer Sans thin;
+        font-size: 30px;
+        padding: 0 3rem;
+      }
+  
+      img {
+        width: 8vw;
+      }
+    }
+  
+    // FORMULARIO
+  
+    .section-formulario {
+      background-image: url(../footage/Imagenes\ prueba\ 3.jpg);
+      background-size: cover;
+      padding: 12rem 0;
+  
+      .row,
+      .container {
+        .form-textos {
+          padding-right: 3rem;
+  
+          .texto-formulario {
+            color: white;
+            font-family: MADE Outer Sans bold;
+            font-size: 60px;
+          }
+  
+          .img-formulario {
+            width: 41vw;
+          }
+        }
+  
+        .formulario {
+          padding-left: 3rem;
+  
+          .titulo-form {
+            color: white;
+            font-family: MADE Outer Sans black;
+            font-size: 85px;
+          }
+  
+          form {
+            color: white;
+  
+            .form-group {
+              margin-bottom: 0.5rem;
+            }
+  
+            .input-formulario-general {
+              font-family: MADE Outer Sans thin;
+              font-size: 45px;
+              height: 85px;
+              margin-right: 1rem;
+              padding: 0;
+              padding-left: 5px;
+            }
+  
+            .form-control {
+              color: red;
+              font-family: MADE Outer Sans thin;
+              font-size: 40px;
+              border-radius: 10px;
+  
+              &:focus {
+                border-color: #9e192c;
+                box-shadow: none;
+              }
+            }
+  
+            .boton-formulario {
+              background-color: #9e192c;
+              color: white;
+              font-family: MADE Outer Sans regular;
+              font-size: 50px;
+    letter-spacing: 1px;
+    padding: 1rem 12rem;
+              border: none;
+              border-radius: 10px;
+              box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+              -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+              -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+            }
+  
+            hr {
+              height: 2px;
+              background-color: #9e192c;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // FOOTER
+  
+  footer {
+    background-color: #9e192c;
+  
+.container{
+  max-width: 2300px;
 }
 
+    .texto-footer {
+      font-family: MADE Outer Sans thin;
+      font-size: 2.3rem;
+      font-weight: 100;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  
+    .titulo-footer {
+      font-size: 2.3rem;
+      font-family: MADE Outer Sans thin;
+      color: white;
+    }
+  
+    .logo-footer {
+      width: 100px;
+      color: white;
+    }
+  
+    .titulo-footer2 {
+      color: white;
+      font-family: MADE Outer Sans Bold;
+      font-size: 2.3rem;
+      margin-bottom: 0;
+    }
+  
+    .texto-footer {
+      color: white;
+      font-family: MADE Outer Sans thin;
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+
+
+
 // HEADER
+@media (max-width:1440px) {
+  
+  .boton-contacto {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    bottom: 34px;
+    right: 35px;
+    background-color: #9e192c;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  
+    &:hover {
+      color: white;
+    }
+  
+    &:active {
+      box-shadow: none;
+    }
+
+    svg{
+      width: 35px;
+    }
+  }
+  
 
 .header {
   height: 13vh;
@@ -66,21 +411,17 @@
   position: relative;
   z-index: 1;
   background-color: white;
-
-button{
   
-&:focus{
-  outline: none;
-}
 
-  svg{
 
-    
-    &:focus{
-    outline: none;
+  button {
+
+    &:focus {
+      outline: none;
+    }
+
+   
   }
-  }
-}
 
   .navbar {
     padding: 0 0;
@@ -90,6 +431,17 @@ button{
         color: black;
         font-family: MADE Outer Sans medium;
         font-size: 24px;
+      }
+    }
+
+
+    svg {
+
+      width: 35px;
+      height: auto;
+
+      &:focus {
+        outline: none;
       }
     }
 
@@ -110,7 +462,7 @@ main {
   // Section 1
 
   .section1 {
-    background-image: url("../footage/Background\ banner.jpg");
+    background-image: url("../footage/Background\ banner3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -124,6 +476,10 @@ main {
       .row {
         margin: 0 0;
 
+        .img-banner-desaparece {
+          width: 40vw;
+          padding-top: 1rem;
+        }
 
         .logo-banner {
           width: 38vw;
@@ -325,7 +681,7 @@ footer {
     font-size: 0.9rem;
     margin-bottom: 1rem;
   }
-}
+}}
 
 @media (max-width: 1024px) and (min-width: 769px) {
   header {
@@ -367,7 +723,7 @@ footer {
       display: block;
 
       .container {
-        max-width: 830px;
+        max-width: 930px;
 
         .row {
           .boton-banner {
@@ -466,9 +822,9 @@ footer {
 
 @media (max-width: 768px) and (min-width: 426px) {
 
-#opciones{
-  background-color: white;
-}
+  #opciones {
+    background-color: white;
+  }
 
   header {
     .container {
@@ -521,12 +877,18 @@ footer {
 
       .container {
         max-width: 830px;
-      
+
 
         .row {
 
+          justify-content: center;
 
-          .columnas-banner{
+
+          .col-md-6 {
+            max-width: 100%;
+          }
+
+          .columnas-banner {
             max-width: 768px;
           }
 
@@ -550,7 +912,7 @@ footer {
             }
 
 
-            .img-aparece{
+            .img-aparece {
               width: 80vw;
             }
           }
@@ -678,16 +1040,16 @@ footer {
 @media (max-width: 425px) and (min-width: 10px) {
 
 
-  .boton-contacto{
+  .boton-contacto {
     width: 60px;
     height: 60px;
     line-height: 56px;
   }
 
-  
-#opciones{
-  background-color: white;
-}
+
+  #opciones {
+    background-color: white;
+  }
 
   header {
 
@@ -724,7 +1086,7 @@ footer {
     }
   }
 
-  
+
 
   main {
 
@@ -766,6 +1128,7 @@ footer {
             padding-top: 1rem;
             font-size: 6vw;
           }
+
           .boton-banner-aparece {
             display: block;
             padding-bottom: 3rem;
@@ -775,7 +1138,7 @@ footer {
             }
 
 
-            .img-aparece{
+            .img-aparece {
               width: 80vw;
             }
           }
@@ -837,7 +1200,8 @@ footer {
       height: 170vh;
       background-position-x: center;
 
-      .container,.row {
+      .container,
+      .row {
         .form-textos {
           padding-right: 0;
           text-align: center;
@@ -855,12 +1219,12 @@ footer {
         .formulario {
           padding: 0;
 
-          form{
-            .boton-formulario{
+          form {
+            .boton-formulario {
               padding: 0.6rem 35vw;
             }
 
-            .form-control{
+            .form-control {
               font-size: 15px;
             }
           }
