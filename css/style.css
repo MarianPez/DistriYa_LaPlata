@@ -24,7 +24,7 @@
   padding: 0;
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1800px) {
   .boton-contacto {
     position: fixed;
     width: 80px;
@@ -173,6 +173,269 @@
   }
   main .section-datos img {
     width: 8vw;
+  }
+  main .section-formulario {
+    background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
+    background-size: cover;
+    padding: 12rem 8rem;
+  }
+  main .section-formulario .row .form-textos,
+main .section-formulario .container .form-textos {
+    padding-right: 3rem;
+  }
+  main .section-formulario .row .form-textos .texto-formulario,
+main .section-formulario .container .form-textos .texto-formulario {
+    color: white;
+    font-family: MADE Outer Sans bold;
+    font-size: 2vw;
+  }
+  main .section-formulario .row .form-textos .img-formulario,
+main .section-formulario .container .form-textos .img-formulario {
+    width: 38vw;
+  }
+  main .section-formulario .row .formulario,
+main .section-formulario .container .formulario {
+    padding-left: 3rem;
+  }
+  main .section-formulario .row .formulario .titulo-form,
+main .section-formulario .container .formulario .titulo-form {
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 70px;
+  }
+  main .section-formulario .row .formulario form,
+main .section-formulario .container .formulario form {
+    color: white;
+  }
+  main .section-formulario .row .formulario form .form-group,
+main .section-formulario .container .formulario form .form-group {
+    margin-bottom: 0.5rem;
+  }
+  main .section-formulario .row .formulario form .input-formulario-general,
+main .section-formulario .container .formulario form .input-formulario-general {
+    font-family: MADE Outer Sans thin;
+    font-size: 35px;
+    height: 60px;
+    margin-right: 1rem;
+    padding: 0;
+    padding-left: 5px;
+  }
+  main .section-formulario .row .formulario form .form-control,
+main .section-formulario .container .formulario form .form-control {
+    color: red;
+    font-family: MADE Outer Sans thin;
+    font-size: 1.2vw;
+    border-radius: 10px;
+  }
+  main .section-formulario .row .formulario form .form-control:focus,
+main .section-formulario .container .formulario form .form-control:focus {
+    border-color: #9e192c;
+    box-shadow: none;
+  }
+  main .section-formulario .row .formulario form .boton-formulario,
+main .section-formulario .container .formulario form .boton-formulario {
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans regular;
+    font-size: 38px;
+    letter-spacing: 1px;
+    padding: 0.5rem 6rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section-formulario .row .formulario form hr,
+main .section-formulario .container .formulario form hr {
+    height: 2px;
+    background-color: #9e192c;
+  }
+  footer {
+    background-color: #9e192c;
+    padding: 0 7rem;
+  }
+  footer .container {
+    max-width: 2300px;
+  }
+  footer .texto-footer {
+    font-family: MADE Outer Sans thin;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  footer .titulo-footer {
+    font-size: 1rem;
+    font-family: MADE Outer Sans thin;
+    color: white;
+  }
+  footer .logo-footer {
+    width: 70px;
+    color: white;
+  }
+  footer .titulo-footer2 {
+    color: white;
+    font-family: MADE Outer Sans Bold;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  footer .texto-footer {
+    color: white;
+    font-family: MADE Outer Sans thin;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 1779px) and (min-width: 1441px) {
+  .boton-contacto {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    bottom: 34px;
+    right: 35px;
+    background-color: #9e192c;
+    color: white;
+    border-radius: 89px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  }
+  .boton-contacto:hover {
+    color: white;
+  }
+  .boton-contacto:active {
+    box-shadow: none;
+  }
+  .boton-contacto svg {
+    width: 45px;
+  }
+  .header {
+    height: 13vh;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 0 7rem;
+  }
+  .header .container {
+    max-width: 2300px;
+  }
+  .header button:focus {
+    outline: none;
+  }
+  .header .navbar {
+    padding: 0 0;
+  }
+  .header .navbar .nav-item .nav-link {
+    color: black;
+    font-family: MADE Outer Sans medium;
+    font-size: 40px;
+  }
+  .header .navbar svg {
+    width: 50px;
+    height: auto;
+  }
+  .header .navbar svg:focus {
+    outline: none;
+  }
+  .header .navbar .logo {
+    width: 250px;
+    height: auto;
+  }
+  .header .navbar .navbar-collapse {
+    flex-grow: 0;
+  }
+  main .section1 {
+    background-image: url("https://i.postimg.cc/yxpHzv48/Background-banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    padding: 0 0;
+  }
+  main .section1 .container {
+    padding-right: 0;
+    max-width: 2300px;
+    padding-bottom: 5rem;
+  }
+  main .section1 .container .align-items-xl-end {
+    align-items: center !important;
+  }
+  main .section1 .container .row {
+    margin: 0 0;
+  }
+  main .section1 .container .row .img-banner-desaparece {
+    width: 45vw;
+    padding-top: 1rem;
+  }
+  main .section1 .container .row .logo-banner {
+    width: 38vw;
+  }
+  main .section1 .container .row .texto-banner {
+    font-family: MADE Outer Sans bold;
+    color: #9e192c;
+    font-size: 2.7vw;
+    text-align: center;
+  }
+  main .section1 .container .row .boton-banner {
+    background-color: #9e192c;
+    color: white;
+    font-family: MADE Outer Sans black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 3vh 3vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+  main .section1 .container .row .boton-banner:active {
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner:focus {
+    outline: none;
+  }
+  main .section1 .container .row .boton-banner-aparece {
+    display: none;
+  }
+  main .container {
+    max-width: 2300px;
+  }
+  main .section-nuestras-marcas {
+    padding-top: 2rem;
+  }
+  main .section-nuestras-marcas h1 {
+    font-family: MADE Outer Sans Bold;
+    font-size: 7rem;
+    color: black;
+  }
+  main .section-nuestras-marcas .imagen-productos {
+    padding: 0 4px;
+    margin-bottom: 11px;
+    width: 26vw;
+  }
+  main .section-datos {
+    background-color: #d9d9d9;
+  }
+  main .section-datos h3 {
+    font-family: MADE Outer Sans Medium;
+    font-size: 30px;
+  }
+  main .section-datos p {
+    font-family: MADE Outer Sans thin;
+    font-size: 25px;
+    padding: 0 3rem;
+  }
+  main .section-datos img {
+    width: 9vw;
   }
   main .section-formulario {
     background-image: url("https://i.postimg.cc/RVRB9CmD/Imagenes-prueba-3.jpg");
