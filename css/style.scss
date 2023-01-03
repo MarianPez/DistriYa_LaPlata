@@ -1564,6 +1564,10 @@ footer {
           padding: 0 1rem;
 
           form {
+
+            .columna{
+              flex-direction: column;
+            }
             .boton-formulario {
               padding: 0.6rem 35vw;
             }
@@ -1792,7 +1796,7 @@ footer {
     .section-formulario {
       background-size: cover;
       background-repeat: no-repeat;
-      height: 110vh;
+      height: 150vh;
       background-position-x: center;
 
       .container,
@@ -1815,6 +1819,11 @@ footer {
           padding: 0 1rem;
 
           form {
+
+.columna{
+  flex-direction: column;
+}
+
             .boton-formulario {
               padding: 1vh 12vw;
               font-size: 7vw;

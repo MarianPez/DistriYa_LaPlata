@@ -1153,6 +1153,10 @@ main .section-formulario .row .formulario {
     padding: 0 1rem;
     text-align: center;
   }
+  main .section-formulario .container .formulario form .columna,
+main .section-formulario .row .formulario form .columna {
+    flex-direction: column;
+  }
   main .section-formulario .container .formulario form .boton-formulario,
 main .section-formulario .row .formulario form .boton-formulario {
     padding: 0.6rem 35vw;
@@ -1298,7 +1302,7 @@ main .section-formulario .row .formulario .titulo-form {
   main .section-formulario {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
+    height: 150vh;
     background-position-x: center;
   }
   main .section-formulario .container .form-textos,
@@ -1319,6 +1323,10 @@ main .section-formulario .row .form-textos .texto-formulario {
 main .section-formulario .row .formulario {
     padding: 0 1rem;
     text-align: center;
+  }
+  main .section-formulario .container .formulario form .columna,
+main .section-formulario .row .formulario form .columna {
+    flex-direction: column;
   }
   main .section-formulario .container .formulario form .boton-formulario,
 main .section-formulario .row .formulario form .boton-formulario {
