@@ -565,17 +565,17 @@
     
         h3 {
           font-family: MADE Outer Sans Medium;
-          font-size: 22px;
+          font-size: 19px;
         }
     
         p {
           font-family: MADE Outer Sans thin;
-          font-size: 20px;
+          font-size: 17px;
           padding: 0 3rem;
         }
     
         img {
-          width: 7vw;
+          width: 6vw;
         }
       }
     
@@ -821,7 +821,7 @@ main {
         }
 
         .logo-banner {
-          width: 27vw;
+          width: 29vw;
         }
 
         .texto-banner {
@@ -830,6 +830,8 @@ main {
           font-size: 2.2vw;
           text-align: center;
         }
+
+     
 
         .boton-banner {
           background-color: #9e192c;
@@ -1379,7 +1381,7 @@ footer {
   }
 }
 
-@media (max-width: 425px) and (min-width: 10px) {
+@media (max-width: 425px) and (min-width: 365px) {
 
 
   .boton-contacto {
@@ -1618,6 +1620,268 @@ footer {
 
     .texto-footer2 {
       font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+
+
+@media (max-width: 365px) and (min-width: 0px) {
+
+
+  .boton-contacto {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+
+
+  svg{
+    width: 30px;
+  }
+}
+
+
+  #opciones {
+    background-color: white;
+  }
+
+  .header {
+
+    .navbar {
+      .logo {
+        width: 45vw;
+        padding-left: 1rem;
+      }
+    }
+
+    .container {
+      max-width: 1024px;
+    }
+
+    .navbar-brand {
+      padding-left: 2rem;
+    }
+
+    .navbar-toggler {
+      padding-right: 2rem;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar {
+      .nav-item {
+        .nav-link {
+          text-align: center;
+          font-size: 5vw;
+        }
+      }
+    }
+  }
+
+
+
+  main {
+
+
+    // SECCIÓN 1
+
+
+    .section1 {
+      background-image: url("https://i.postimg.cc/yYjc4Rb3/Responsive-banner2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      justify-content: space-between;
+
+
+      .desaparece {
+        display: none;
+      }
+
+      .aparece {
+        display: block;
+      }
+
+      .container {
+        max-width: 830px;
+
+        .row {
+          .boton-banner {
+            font-size: 60vw;
+            padding: 3vh 8vw;
+            border: none;
+          }
+
+          .texto-banner {
+            padding-top: 1rem;
+            font-size: 6vw;
+          }
+
+          .boton-banner-aparece {
+            display: block;
+            padding-bottom: 3rem;
+
+            .boton-banner {
+              font-size: 5vw;
+            }
+
+
+            .img-aparece {
+              width: 80vw;
+            }
+          }
+
+          .desaparece {
+            display: none;
+          }
+
+          .desaparece {
+            display: none;
+          }
+        }
+      }
+    }
+
+
+    // SECCIÓN NUESTRAS MARCAS
+
+    .section-nuestras-marcas {
+      margin-bottom: 2rem;
+
+      h1 {
+        font-size: 8vw;
+        margin-bottom: 1rem;
+      }
+
+      .imagen-productos {
+        width: 80vw;
+      }
+
+      .imagen-display {
+        display: none;
+      }
+    }
+
+    // SECCIÓN DATOS
+
+    .section-datos {
+      margin-bottom: 2rem;
+
+      img {
+        width: 16vw;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    // SECCIÓN FORMULARIO
+
+    .section-formulario {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 110vh;
+      background-position-x: center;
+
+      .container,
+      .row {
+        .form-textos {
+          padding-right: 0;
+          text-align: center;
+
+          .img-formulario {
+            width: 65vw;
+            margin-bottom: 1rem;
+          }
+
+          .texto-formulario {
+            font-size: 6vw;
+          }
+        }
+
+        .formulario {
+          padding: 0 1rem;
+
+          form {
+            .boton-formulario {
+              padding: 1vh 12vw;
+              font-size: 7vw;
+            }
+
+            .form-control {
+              font-size: 3vw;
+            }
+
+
+           .input-formulario-general{
+            height: 5vh;
+           }
+          }
+
+          .titulo-form {
+            font-size: 8vw;
+          }
+
+          text-align: center;
+        }
+
+      }
+    }
+
+
+
+
+  }
+
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
+.logo-footer{
+  width: 15vw;
+}
+
+    .texto-footer {
+      font-size: 4vw;
+      padding-top: 1rem;
+    }
+
+    .d-flex {
+      margin-bottom: 1rem;
+    }
+
+
+    .titulo-footer2 {
+      font-size: 4vw;
+    }
+
+    .titulo-footer {
+      font-size: 4vw;
+    }
+
+    .contenedor-footer {
+      flex-direction: column;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .texto-footer2 {
+      font-size: 4vw;
       margin-bottom: 2rem;
     }
   }
